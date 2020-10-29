@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		7F483FDB2549FC1C00DC3888 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F483FDA2549FC1C00DC3888 /* HomeView.swift */; };
 		7F483FDF2549FEA400DC3888 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F483FDE2549FEA400DC3888 /* ProjectsView.swift */; };
+		7F7E6CB2254A43A700B8E854 /* Item-CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7E6CB1254A43A700B8E854 /* Item-CoreDataHelper.swift */; };
+		7F7E6CB6254A48E500B8E854 /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7E6CB5254A48E500B8E854 /* Project-CoreDataHelpers.swift */; };
 		7FEE2AE72547997300B05609 /* SwiftYooAiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEE2AE62547997300B05609 /* SwiftYooAiApp.swift */; };
 		7FEE2AE92547997300B05609 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEE2AE82547997300B05609 /* ContentView.swift */; };
 		7FEE2AEB2547997600B05609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FEE2AEA2547997600B05609 /* Assets.xcassets */; };
@@ -21,6 +23,8 @@
 		7F483FD52549FAAD00DC3888 /* SwiftYooAi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftYooAi.entitlements; sourceTree = "<group>"; };
 		7F483FDA2549FC1C00DC3888 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7F483FDE2549FEA400DC3888 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
+		7F7E6CB1254A43A700B8E854 /* Item-CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-CoreDataHelper.swift"; sourceTree = "<group>"; };
+		7F7E6CB5254A48E500B8E854 /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		7FEE2AE32547997300B05609 /* SwiftYooAi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftYooAi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FEE2AE62547997300B05609 /* SwiftYooAiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftYooAiApp.swift; sourceTree = "<group>"; };
 		7FEE2AE82547997300B05609 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				7FEE2AE82547997300B05609 /* ContentView.swift */,
 				7FEE2AFB2548B8BD00B05609 /* DataController.swift */,
 				7F483FDA2549FC1C00DC3888 /* HomeView.swift */,
+				7F7E6CB1254A43A700B8E854 /* Item-CoreDataHelper.swift */,
+				7F7E6CB5254A48E500B8E854 /* Project-CoreDataHelpers.swift */,
 				7F483FDE2549FEA400DC3888 /* ProjectsView.swift */,
 				7FEE2AE62547997300B05609 /* SwiftYooAiApp.swift */,
 				7FEE2AEA2547997600B05609 /* Assets.xcassets */,
@@ -154,6 +160,8 @@
 			files = (
 				7F483FDF2549FEA400DC3888 /* ProjectsView.swift in Sources */,
 				7FEE2AF92548A90B00B05609 /* Main.xcdatamodeld in Sources */,
+				7F7E6CB6254A48E500B8E854 /* Project-CoreDataHelpers.swift in Sources */,
+				7F7E6CB2254A43A700B8E854 /* Item-CoreDataHelper.swift in Sources */,
 				7FEE2AFC2548B8BD00B05609 /* DataController.swift in Sources */,
 				7FEE2AE92547997300B05609 /* ContentView.swift in Sources */,
 				7F483FDB2549FC1C00DC3888 /* HomeView.swift in Sources */,
