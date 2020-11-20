@@ -19,6 +19,10 @@
 		7F7E6CB6254A48E500B8E854 /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7E6CB5254A48E500B8E854 /* Project-CoreDataHelpers.swift */; };
 		7FB2287F25561BA20049C000 /* Sequence-Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB2287E25561BA10049C000 /* Sequence-Sorting.swift */; };
 		7FB228AD255A26F60049C000 /* SelectSomethingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB228AC255A26F60049C000 /* SelectSomethingView.swift */; };
+		7FE401012566ECCC00DC3CF9 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE401002566ECCC00DC3CF9 /* Bundle-Decodable.swift */; };
+		7FE4010525673C7E00DC3CF9 /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = 7FE4010425673C7E00DC3CF9 /* Awards.json */; };
+		7FE401092567443A00DC3CF9 /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE401082567443A00DC3CF9 /* Award.swift */; };
+		7FE4010D256745AE00DC3CF9 /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE4010C256745AE00DC3CF9 /* AwardsView.swift */; };
 		7FEE2AE72547997300B05609 /* SwiftYooAiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEE2AE62547997300B05609 /* SwiftYooAiApp.swift */; };
 		7FEE2AE92547997300B05609 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEE2AE82547997300B05609 /* ContentView.swift */; };
 		7FEE2AEB2547997600B05609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FEE2AEA2547997600B05609 /* Assets.xcassets */; };
@@ -41,6 +45,10 @@
 		7F7E6CB5254A48E500B8E854 /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		7FB2287E25561BA10049C000 /* Sequence-Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence-Sorting.swift"; sourceTree = "<group>"; };
 		7FB228AC255A26F60049C000 /* SelectSomethingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSomethingView.swift; sourceTree = "<group>"; };
+		7FE401002566ECCC00DC3CF9 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		7FE4010425673C7E00DC3CF9 /* Awards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Awards.json; sourceTree = "<group>"; };
+		7FE401082567443A00DC3CF9 /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
+		7FE4010C256745AE00DC3CF9 /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
 		7FEE2AE32547997300B05609 /* SwiftYooAi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftYooAi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FEE2AE62547997300B05609 /* SwiftYooAiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftYooAiApp.swift; sourceTree = "<group>"; };
 		7FEE2AE82547997300B05609 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -82,8 +90,12 @@
 			isa = PBXGroup;
 			children = (
 				7F483FD52549FAAD00DC3888 /* SwiftYooAi.entitlements */,
+				7FE4010425673C7E00DC3CF9 /* Awards.json */,
 				7FEE2AEF2547997600B05609 /* Info.plist */,
+				7FE401082567443A00DC3CF9 /* Award.swift */,
+				7FE4010C256745AE00DC3CF9 /* AwardsView.swift */,
 				7F45D246255209B200563F4F /* Binding-OnChange.swift */,
+				7FE401002566ECCC00DC3CF9 /* Bundle-Decodable.swift */,
 				7FEE2AE82547997300B05609 /* ContentView.swift */,
 				7FEE2AFB2548B8BD00B05609 /* DataController.swift */,
 				7F45D23F2551E0A700563F4F /* EditItemView.swift */,
@@ -171,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F45D2502552173300563F4F /* Colors.xcassets in Resources */,
+				7FE4010525673C7E00DC3CF9 /* Awards.json in Resources */,
 				7FEE2AEE2547997600B05609 /* Preview Assets.xcassets in Resources */,
 				7FEE2AEB2547997600B05609 /* Assets.xcassets in Resources */,
 			);
@@ -185,15 +198,18 @@
 			files = (
 				7F483FDF2549FEA400DC3888 /* ProjectsView.swift in Sources */,
 				7F45D24C255212AE00563F4F /* ProjectHeaderView.swift in Sources */,
+				7FE4010D256745AE00DC3CF9 /* AwardsView.swift in Sources */,
 				7FEE2AF92548A90B00B05609 /* Main.xcdatamodeld in Sources */,
 				7F7E6CB6254A48E500B8E854 /* Project-CoreDataHelpers.swift in Sources */,
 				7F45D2542553452900563F4F /* EditProjectView.swift in Sources */,
 				7F7E6CB2254A43A700B8E854 /* Item-CoreDataHelper.swift in Sources */,
 				7FB228AD255A26F60049C000 /* SelectSomethingView.swift in Sources */,
+				7FE401092567443A00DC3CF9 /* Award.swift in Sources */,
 				7F45D2442551EA1C00563F4F /* ItemRowView.swift in Sources */,
 				7FEE2AFC2548B8BD00B05609 /* DataController.swift in Sources */,
 				7F45D247255209B200563F4F /* Binding-OnChange.swift in Sources */,
 				7FB2287F25561BA20049C000 /* Sequence-Sorting.swift in Sources */,
+				7FE401012566ECCC00DC3CF9 /* Bundle-Decodable.swift in Sources */,
 				7FEE2AE92547997300B05609 /* ContentView.swift in Sources */,
 				7F483FDB2549FC1C00DC3888 /* HomeView.swift in Sources */,
 				7FEE2AE72547997300B05609 /* SwiftYooAiApp.swift in Sources */,
