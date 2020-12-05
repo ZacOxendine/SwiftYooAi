@@ -13,7 +13,8 @@ struct HomeView: View {
     
     @EnvironmentObject var dataController: DataController
     
-    @FetchRequest(entity: Project.entity(), sortDescriptors: [NSSortDescriptor(keyPath: \Project.title, ascending: true)],
+    @FetchRequest(entity: Project.entity(),
+                  sortDescriptors: [NSSortDescriptor(keyPath: \Project.title, ascending: true)],
                   predicate: NSPredicate(format: "closed = false")) var projects: FetchedResults<Project>
     let items: FetchRequest<Item>
     
@@ -35,7 +36,12 @@ struct HomeView: View {
     
     var body: some View {
         NavigationView {
-            ScrollView{
+            ScrollView {
+                Button("Add Data") {
+                    dataController.deleteAll()
+                    try? dataController.createSampleData()
+                }
+                
                 VStack(alignment: .leading) {
                     ScrollView(.horizontal, showsIndicators: false) {
                         LazyHGrid(rows: projectRows) {
@@ -73,7 +79,7 @@ struct HomeView: View {
         }
     }
     
-    @ViewBuilder func list(_ title: String, for items: FetchedResults<Item>.SubSequence) -> some View {
+    @ViewBuilder func list(_ title: LocalizedStringKey, for items: FetchedResults<Item>.SubSequence) -> some View {
         if items.isEmpty {
             EmptyView()
         } else {
@@ -110,11 +116,6 @@ struct HomeView: View {
         }
     }
 }
-
-//Button("Add Data") {
-//    dataController.deleteAll()
-//    try? dataController.createSampleData()
-//}
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {

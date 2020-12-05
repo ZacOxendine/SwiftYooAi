@@ -13,7 +13,7 @@ extension Project {
                          "Dark Blue", "Midnight", "Dark Gray", "Gray"]
     
     var projectTitle: String {
-        title ?? "New Project"
+        title ?? NSLocalizedString("New Project", comment: "Create a New Project")
     }
     
     var projectDetail: String {

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F22FE8F257B0F0900EE1A7D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F22FE91257B0F0900EE1A7D /* Localizable.strings */; };
+		7F22FE94257C421200EE1A7D /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 7F22FE96257C421200EE1A7D /* Localizable.stringsdict */; };
+		7F22FE9A257C436200EE1A7D /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = 7F22FE9C257C436200EE1A7D /* Awards.json */; };
 		7F45D2402551E0A700563F4F /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F45D23F2551E0A700563F4F /* EditItemView.swift */; };
 		7F45D2442551EA1C00563F4F /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F45D2432551EA1C00563F4F /* ItemRowView.swift */; };
 		7F45D247255209B200563F4F /* Binding-OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F45D246255209B200563F4F /* Binding-OnChange.swift */; };
@@ -21,7 +24,6 @@
 		7FB2287F25561BA20049C000 /* Sequence-Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB2287E25561BA10049C000 /* Sequence-Sorting.swift */; };
 		7FB228AD255A26F60049C000 /* SelectSomethingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB228AC255A26F60049C000 /* SelectSomethingView.swift */; };
 		7FE401012566ECCC00DC3CF9 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE401002566ECCC00DC3CF9 /* Bundle-Decodable.swift */; };
-		7FE4010525673C7E00DC3CF9 /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = 7FE4010425673C7E00DC3CF9 /* Awards.json */; };
 		7FE401092567443A00DC3CF9 /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE401082567443A00DC3CF9 /* Award.swift */; };
 		7FE4010D256745AE00DC3CF9 /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE4010C256745AE00DC3CF9 /* AwardsView.swift */; };
 		7FEE2AE72547997300B05609 /* SwiftYooAiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEE2AE62547997300B05609 /* SwiftYooAiApp.swift */; };
@@ -33,6 +35,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F22FE90257B0F0900EE1A7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7F22FE92257B0F1D00EE1A7D /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7F22FE95257C421200EE1A7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		7F22FE98257C421700EE1A7D /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = hu; path = hu.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		7F22FE9B257C436200EE1A7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/Awards.json; sourceTree = "<group>"; };
+		7F22FE9E257C437200EE1A7D /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = hu; path = hu.lproj/Awards.json; sourceTree = "<group>"; };
 		7F45D23F2551E0A700563F4F /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
 		7F45D2432551EA1C00563F4F /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
 		7F45D246255209B200563F4F /* Binding-OnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding-OnChange.swift"; sourceTree = "<group>"; };
@@ -48,7 +56,6 @@
 		7FB2287E25561BA10049C000 /* Sequence-Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence-Sorting.swift"; sourceTree = "<group>"; };
 		7FB228AC255A26F60049C000 /* SelectSomethingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSomethingView.swift; sourceTree = "<group>"; };
 		7FE401002566ECCC00DC3CF9 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
-		7FE4010425673C7E00DC3CF9 /* Awards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Awards.json; sourceTree = "<group>"; };
 		7FE401082567443A00DC3CF9 /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
 		7FE4010C256745AE00DC3CF9 /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
 		7FEE2AE32547997300B05609 /* SwiftYooAi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftYooAi.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,8 +99,10 @@
 			isa = PBXGroup;
 			children = (
 				7F483FD52549FAAD00DC3888 /* SwiftYooAi.entitlements */,
-				7FE4010425673C7E00DC3CF9 /* Awards.json */,
+				7F22FE9C257C436200EE1A7D /* Awards.json */,
 				7FEE2AEF2547997600B05609 /* Info.plist */,
+				7F22FE91257B0F0900EE1A7D /* Localizable.strings */,
+				7F22FE96257C421200EE1A7D /* Localizable.stringsdict */,
 				7FE401082567443A00DC3CF9 /* Award.swift */,
 				7FE4010C256745AE00DC3CF9 /* AwardsView.swift */,
 				7F45D246255209B200563F4F /* Binding-OnChange.swift */,
@@ -169,6 +178,7 @@
 			knownRegions = (
 				en,
 				Base,
+				hu,
 			);
 			mainGroup = 7FEE2ADA2547997300B05609;
 			productRefGroup = 7FEE2AE42547997300B05609 /* Products */;
@@ -185,10 +195,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F22FE8F257B0F0900EE1A7D /* Localizable.strings in Resources */,
 				7F45D2502552173300563F4F /* Colors.xcassets in Resources */,
-				7FE4010525673C7E00DC3CF9 /* Awards.json in Resources */,
+				7F22FE9A257C436200EE1A7D /* Awards.json in Resources */,
 				7FEE2AEE2547997600B05609 /* Preview Assets.xcassets in Resources */,
 				7FEE2AEB2547997600B05609 /* Assets.xcassets in Resources */,
+				7F22FE94257C421200EE1A7D /* Localizable.stringsdict in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +234,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F22FE91257B0F0900EE1A7D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F22FE90257B0F0900EE1A7D /* en */,
+				7F22FE92257B0F1D00EE1A7D /* hu */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		7F22FE96257C421200EE1A7D /* Localizable.stringsdict */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F22FE95257C421200EE1A7D /* en */,
+				7F22FE98257C421700EE1A7D /* hu */,
+			);
+			name = Localizable.stringsdict;
+			sourceTree = "<group>";
+		};
+		7F22FE9C257C436200EE1A7D /* Awards.json */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F22FE9B257C436200EE1A7D /* en */,
+				7F22FE9E257C437200EE1A7D /* hu */,
+			);
+			name = Awards.json;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7FEE2AF02547997600B05609 /* Debug */ = {
