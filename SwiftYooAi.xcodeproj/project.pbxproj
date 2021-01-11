@@ -83,11 +83,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F95FD6F25ACEEB2002C4B14 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7F45D246255209B200563F4F /* Binding-OnChange.swift */,
+				7FE401002566ECCC00DC3CF9 /* Bundle-Decodable.swift */,
+				7F668300256EF88F005B9F74 /* Color-Additions.swift */,
+				7F7E6CB1254A43A700B8E854 /* Item-CoreDataHelper.swift */,
+				7F7E6CB5254A48E500B8E854 /* Project-CoreDataHelpers.swift */,
+				7FB2287E25561BA10049C000 /* Sequence-Sorting.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7F95FD7325ACEFD9002C4B14 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				7F483FD52549FAAD00DC3888 /* SwiftYooAi.entitlements */,
+				7FEE2AEF2547997600B05609 /* Info.plist */,
+				7FEE2AF72548A90B00B05609 /* Main.xcdatamodeld */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		7F95FD7425ACEFE8002C4B14 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				7F22FE91257B0F0900EE1A7D /* Localizable.strings */,
+				7F22FE96257C421200EE1A7D /* Localizable.stringsdict */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		7F95FD7925ACF6E4002C4B14 /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+				7F95FD7A25ACF764002C4B14 /* Home */,
+				7F95FD7B25ACF769002C4B14 /* Projects */,
+				7F95FD7C25ACF778002C4B14 /* Awards */,
+			);
+			path = Activities;
+			sourceTree = "<group>";
+		};
+		7F95FD7A25ACF764002C4B14 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7F483FDA2549FC1C00DC3888 /* HomeView.swift */,
+				7F22FEA025881B4F00EE1A7D /* ItemListView.swift */,
+				7F22FEA325881F2E00EE1A7D /* ProjectSummaryView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7F95FD7B25ACF769002C4B14 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				7F483FDE2549FEA400DC3888 /* ProjectsView.swift */,
+				7FB228AC255A26F60049C000 /* SelectSomethingView.swift */,
+				7F45D24B255212AE00563F4F /* ProjectHeaderView.swift */,
+				7F45D2432551EA1C00563F4F /* ItemRowView.swift */,
+				7F45D2532553452900563F4F /* EditProjectView.swift */,
+				7F45D23F2551E0A700563F4F /* EditItemView.swift */,
+			);
+			path = Projects;
+			sourceTree = "<group>";
+		};
+		7F95FD7C25ACF778002C4B14 /* Awards */ = {
+			isa = PBXGroup;
+			children = (
+				7FE4010C256745AE00DC3CF9 /* AwardsView.swift */,
+				7FE401082567443A00DC3CF9 /* Award.swift */,
+				7F22FE9C257C436200EE1A7D /* Awards.json */,
+			);
+			path = Awards;
+			sourceTree = "<group>";
+		};
 		7FEE2ADA2547997300B05609 = {
 			isa = PBXGroup;
 			children = (
-				7FEE2AE42547997300B05609 /* Products */,
 				7FEE2AE52547997300B05609 /* SwiftYooAi */,
+				7FEE2AE42547997300B05609 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,34 +177,15 @@
 		7FEE2AE52547997300B05609 /* SwiftYooAi */ = {
 			isa = PBXGroup;
 			children = (
-				7F483FD52549FAAD00DC3888 /* SwiftYooAi.entitlements */,
-				7FEE2AEF2547997600B05609 /* Info.plist */,
-				7FE401082567443A00DC3CF9 /* Award.swift */,
-				7FE4010C256745AE00DC3CF9 /* AwardsView.swift */,
-				7F45D246255209B200563F4F /* Binding-OnChange.swift */,
-				7FE401002566ECCC00DC3CF9 /* Bundle-Decodable.swift */,
-				7F668300256EF88F005B9F74 /* Color-Additions.swift */,
+				7F95FD7925ACF6E4002C4B14 /* Activities */,
+				7F95FD6F25ACEEB2002C4B14 /* Extensions */,
+				7F95FD7425ACEFE8002C4B14 /* Localization */,
+				7F95FD7325ACEFD9002C4B14 /* Configuration */,
 				7FEE2AE82547997300B05609 /* ContentView.swift */,
 				7FEE2AFB2548B8BD00B05609 /* DataController.swift */,
-				7F45D23F2551E0A700563F4F /* EditItemView.swift */,
-				7F45D2532553452900563F4F /* EditProjectView.swift */,
-				7F483FDA2549FC1C00DC3888 /* HomeView.swift */,
-				7F7E6CB1254A43A700B8E854 /* Item-CoreDataHelper.swift */,
-				7F22FEA025881B4F00EE1A7D /* ItemListView.swift */,
-				7F45D2432551EA1C00563F4F /* ItemRowView.swift */,
-				7F7E6CB5254A48E500B8E854 /* Project-CoreDataHelpers.swift */,
-				7F45D24B255212AE00563F4F /* ProjectHeaderView.swift */,
-				7F22FEA325881F2E00EE1A7D /* ProjectSummaryView.swift */,
-				7F483FDE2549FEA400DC3888 /* ProjectsView.swift */,
-				7FB228AC255A26F60049C000 /* SelectSomethingView.swift */,
-				7FB2287E25561BA10049C000 /* Sequence-Sorting.swift */,
 				7FEE2AE62547997300B05609 /* SwiftYooAiApp.swift */,
 				7FEE2AEA2547997600B05609 /* Assets.xcassets */,
 				7F45D24F2552173300563F4F /* Colors.xcassets */,
-				7F22FE9C257C436200EE1A7D /* Awards.json */,
-				7F22FE91257B0F0900EE1A7D /* Localizable.strings */,
-				7F22FE96257C421200EE1A7D /* Localizable.stringsdict */,
-				7FEE2AF72548A90B00B05609 /* Main.xcdatamodeld */,
 				7FEE2AEC2547997600B05609 /* Preview Content */,
 			);
 			path = SwiftYooAi;
@@ -417,12 +473,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SwiftYooAi/SwiftYooAi.entitlements;
+				CODE_SIGN_ENTITLEMENTS = SwiftYooAi/Configuration/SwiftYooAi.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftYooAi/Preview Content\"";
 				DEVELOPMENT_TEAM = X9R5C2P2ZJ;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftYooAi/Info.plist;
+				INFOPLIST_FILE = SwiftYooAi/Configuration/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -440,12 +496,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SwiftYooAi/SwiftYooAi.entitlements;
+				CODE_SIGN_ENTITLEMENTS = SwiftYooAi/Configuration/SwiftYooAi.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftYooAi/Preview Content\"";
 				DEVELOPMENT_TEAM = X9R5C2P2ZJ;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftYooAi/Info.plist;
+				INFOPLIST_FILE = SwiftYooAi/Configuration/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
