@@ -12,6 +12,8 @@
 		7F22FE9A257C436200EE1A7D /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = 7F22FE9C257C436200EE1A7D /* Awards.json */; };
 		7F22FEA125881B4F00EE1A7D /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F22FEA025881B4F00EE1A7D /* ItemListView.swift */; };
 		7F22FEA425881F2E00EE1A7D /* ProjectSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F22FEA325881F2E00EE1A7D /* ProjectSummaryView.swift */; };
+		7F3E300425B7907300997430 /* SwiftYooAiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3E300325B7907300997430 /* SwiftYooAiTests.swift */; };
+		7F3E300E25B7930400997430 /* AssetTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3E300D25B7930400997430 /* AssetTest.swift */; };
 		7F45D2402551E0A700563F4F /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F45D23F2551E0A700563F4F /* EditItemView.swift */; };
 		7F45D2442551EA1C00563F4F /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F45D2432551EA1C00563F4F /* ItemRowView.swift */; };
 		7F45D247255209B200563F4F /* Binding-OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F45D246255209B200563F4F /* Binding-OnChange.swift */; };
@@ -36,6 +38,16 @@
 		7FEE2AFC2548B8BD00B05609 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEE2AFB2548B8BD00B05609 /* DataController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7F3E300625B7907300997430 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FEE2ADB2547997300B05609 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FEE2AE22547997300B05609;
+			remoteInfo = SwiftYooAi;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		7F22FE90257B0F0900EE1A7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7F22FE92257B0F1D00EE1A7D /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -45,6 +57,10 @@
 		7F22FE9E257C437200EE1A7D /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = hu; path = hu.lproj/Awards.json; sourceTree = "<group>"; };
 		7F22FEA025881B4F00EE1A7D /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
 		7F22FEA325881F2E00EE1A7D /* ProjectSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectSummaryView.swift; sourceTree = "<group>"; };
+		7F3E300125B7907300997430 /* SwiftYooAiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftYooAiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F3E300325B7907300997430 /* SwiftYooAiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftYooAiTests.swift; sourceTree = "<group>"; };
+		7F3E300525B7907300997430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F3E300D25B7930400997430 /* AssetTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetTest.swift; sourceTree = "<group>"; };
 		7F45D23F2551E0A700563F4F /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
 		7F45D2432551EA1C00563F4F /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
 		7F45D246255209B200563F4F /* Binding-OnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding-OnChange.swift"; sourceTree = "<group>"; };
@@ -73,6 +89,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7F3E2FFE25B7907300997430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7FEE2AE02547997300B05609 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -83,6 +106,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F3E300225B7907300997430 /* SwiftYooAiTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F3E300325B7907300997430 /* SwiftYooAiTests.swift */,
+				7F3E300D25B7930400997430 /* AssetTest.swift */,
+				7F3E300525B7907300997430 /* Info.plist */,
+			);
+			path = SwiftYooAiTests;
+			sourceTree = "<group>";
+		};
 		7F95FD6F25ACEEB2002C4B14 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				7FEE2AE52547997300B05609 /* SwiftYooAi */,
+				7F3E300225B7907300997430 /* SwiftYooAiTests */,
 				7FEE2AE42547997300B05609 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -170,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				7FEE2AE32547997300B05609 /* SwiftYooAi.app */,
+				7F3E300125B7907300997430 /* SwiftYooAiTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -202,6 +237,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7F3E300025B7907300997430 /* SwiftYooAiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F3E300A25B7907300997430 /* Build configuration list for PBXNativeTarget "SwiftYooAiTests" */;
+			buildPhases = (
+				7F3E2FFD25B7907300997430 /* Sources */,
+				7F3E2FFE25B7907300997430 /* Frameworks */,
+				7F3E2FFF25B7907300997430 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F3E300725B7907300997430 /* PBXTargetDependency */,
+			);
+			name = SwiftYooAiTests;
+			productName = SwiftYooAiTests;
+			productReference = 7F3E300125B7907300997430 /* SwiftYooAiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		7FEE2AE22547997300B05609 /* SwiftYooAi */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7FEE2AF22547997600B05609 /* Build configuration list for PBXNativeTarget "SwiftYooAi" */;
@@ -226,9 +279,13 @@
 		7FEE2ADB2547997300B05609 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1210;
+				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
+					7F3E300025B7907300997430 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 7FEE2AE22547997300B05609;
+					};
 					7FEE2AE22547997300B05609 = {
 						CreatedOnToolsVersion = 12.1;
 					};
@@ -249,11 +306,19 @@
 			projectRoot = "";
 			targets = (
 				7FEE2AE22547997300B05609 /* SwiftYooAi */,
+				7F3E300025B7907300997430 /* SwiftYooAiTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7F3E2FFF25B7907300997430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7FEE2AE12547997300B05609 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -291,6 +356,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7F3E2FFD25B7907300997430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3E300E25B7930400997430 /* AssetTest.swift in Sources */,
+				7F3E300425B7907300997430 /* SwiftYooAiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7FEE2ADF2547997300B05609 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -320,6 +394,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F3E300725B7907300997430 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FEE2AE22547997300B05609 /* SwiftYooAi */;
+			targetProxy = 7F3E300625B7907300997430 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7F22FE91257B0F0900EE1A7D /* Localizable.strings */ = {
@@ -352,6 +434,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		7F3E300825B7907300997430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9R5C2P2ZJ;
+				INFOPLIST_FILE = SwiftYooAiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zacharyoxendine.SwiftYooAiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftYooAi.app/SwiftYooAi";
+			};
+			name = Debug;
+		};
+		7F3E300925B7907300997430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9R5C2P2ZJ;
+				INFOPLIST_FILE = SwiftYooAiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zacharyoxendine.SwiftYooAiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftYooAi.app/SwiftYooAi";
+			};
+			name = Release;
+		};
 		7FEE2AF02547997600B05609 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -517,6 +641,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7F3E300A25B7907300997430 /* Build configuration list for PBXNativeTarget "SwiftYooAiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F3E300825B7907300997430 /* Debug */,
+				7F3E300925B7907300997430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7FEE2ADE2547997300B05609 /* Build configuration list for PBXProject "SwiftYooAi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
