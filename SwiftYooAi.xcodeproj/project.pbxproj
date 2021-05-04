@@ -27,6 +27,7 @@
 		7F94218C261BAB0700C43AEF /* ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F94218B261BAB0700C43AEF /* ExtensionTests.swift */; };
 		7F942193261BC2D600C43AEF /* DecodableDictionary.json in Resources */ = {isa = PBXBuildFile; fileRef = 7F942192261BC2D500C43AEF /* DecodableDictionary.json */; };
 		7F942199261BC31F00C43AEF /* DecodableString.json in Resources */ = {isa = PBXBuildFile; fileRef = 7F942198261BC31F00C43AEF /* DecodableString.json */; };
+		7FA56E312641F91F00394B93 /* PerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA56E302641F91F00394B93 /* PerformanceTests.swift */; };
 		7FB2287F25561BA20049C000 /* Sequence-Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB2287E25561BA10049C000 /* Sequence-Sorting.swift */; };
 		7FB228AD255A26F60049C000 /* SelectSomethingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB228AC255A26F60049C000 /* SelectSomethingView.swift */; };
 		7FCAB9592602D1040037693B /* AwardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCAB9582602D1040037693B /* AwardTests.swift */; };
@@ -79,6 +80,7 @@
 		7F94218B261BAB0700C43AEF /* ExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionTests.swift; sourceTree = "<group>"; };
 		7F942192261BC2D500C43AEF /* DecodableDictionary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DecodableDictionary.json; sourceTree = "<group>"; };
 		7F942198261BC31F00C43AEF /* DecodableString.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DecodableString.json; sourceTree = "<group>"; };
+		7FA56E302641F91F00394B93 /* PerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceTests.swift; sourceTree = "<group>"; };
 		7FB2287E25561BA10049C000 /* Sequence-Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence-Sorting.swift"; sourceTree = "<group>"; };
 		7FB228AC255A26F60049C000 /* SelectSomethingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSomethingView.swift; sourceTree = "<group>"; };
 		7FCAB9582602D1040037693B /* AwardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardTests.swift; sourceTree = "<group>"; };
@@ -256,6 +258,7 @@
 				7FF6136B2602C0F3006F50B5 /* AssetTests.swift */,
 				7FF613632602C001006F50B5 /* Info.plist */,
 				7F94218B261BAB0700C43AEF /* ExtensionTests.swift */,
+				7FA56E302641F91F00394B93 /* PerformanceTests.swift */,
 			);
 			path = SwiftYooAiTests;
 			sourceTree = "<group>";
@@ -416,6 +419,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FA56E312641F91F00394B93 /* PerformanceTests.swift in Sources */,
 				7FF6136C2602C0F3006F50B5 /* AssetTests.swift in Sources */,
 				7FCAB9592602D1040037693B /* AwardTests.swift in Sources */,
 				7FF613622602C001006F50B5 /* SwiftYooAiTests.swift in Sources */,
