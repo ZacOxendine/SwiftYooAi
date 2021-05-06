@@ -43,9 +43,19 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7F3E300025B7907300997430"
+               BlueprintIdentifier = "7FF6135E2602C001006F50B5"
                BuildableName = "SwiftYooAiTests.xctest"
                BlueprintName = "SwiftYooAiTests"
+               ReferencedContainer = "container:SwiftYooAi.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7FA56E372643499000394B93"
+               BuildableName = "SwiftYooAiUITests.xctest"
+               BlueprintName = "SwiftYooAiUITests"
                ReferencedContainer = "container:SwiftYooAi.xcodeproj">
             </BuildableReference>
          </TestableReference>
